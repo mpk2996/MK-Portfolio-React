@@ -36,58 +36,60 @@ const Contact = () => {
 
   return (
 
-    <div className="flex items-center pl-10">
-      <div className="w-40 h-auto mr-4"></div>
-      <div className="w-100% bg-white rounded-lg shadow-lg p-6">
-        <h2 className="text-3xl font-bold mb-4">Contact Me</h2>
-        <form onSubmit={handleFormSubmit} className="mb-6">
-          <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 my-2">
-            <label htmlFor="name" className="text-lg md:w-1/4">Name:</label>
-            <input
-              placeholder="Your Name"
-              name="name"
-              type="text"
-              id="name"
-              onChange={handleNameChange}
-              className={`border rounded-md p-2 flex-grow`}
-            />
-          </div>
-          <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 my-2">
-            <label htmlFor="email" className="text-lg md:w-1/4">Email :</label>
-            <input
-              placeholder="youremail@here.com"
-              name="email"
-              type="email"
-              id="email"
-              onChange={handleEmailChange}
-              className={`border rounded-md p-2 flex-grow`}
-            />
-          </div>
-          <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 my-2">
-            <label htmlFor="message" className="text-lg md:w-1/4">Message:</label>
-            <textarea
-              placeholder="Your Message"
-              name="message"
-              id="message"
-              onChange={handleMessageChange}
-              className={`border rounded-md p-2 flex-grow`}
-            />
-          </div>
-          {/* {error ? (
+    <div className="about-page min-h-screen">
+      <div className="flex items-center pl-10">
+        <div className="h-auto mr-4"></div>
+        <div className="mx-auto mt-14 w-100% bg-white rounded-lg shadow-lg p-6">
+          <h2 className="text-3xl font-bold mb-4">Contact Me</h2>
+          <form onSubmit={handleFormSubmit} className="mt-4 mb-6">
+            <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 my-2">
+              <label htmlFor="name" className="text-lg md:w-1/4">Name:</label>
+              <input
+                placeholder="Your Name"
+                name="name"
+                type="text"
+                id="name"
+                onChange={handleNameChange}
+                className={`border rounded-md p-2 flex-grow`}
+              />
+            </div>
+            <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 my-2">
+              <label htmlFor="email" className="text-lg md:w-1/4">Email :</label>
+              <input
+                placeholder="youremail@here.com"
+                name="email"
+                type="email"
+                id="email"
+                onChange={handleEmailChange}
+                className={`border rounded-md p-2 flex-grow`}
+              />
+            </div>
+            <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 my-2">
+              <label htmlFor="message" className="text-lg md:w-1/4">Message:</label>
+              <textarea
+                placeholder="Your Message"
+                name="message"
+                id="message"
+                onChange={handleMessageChange}
+                className={`border rounded-md p-2 flex-grow`}
+              />
+            </div>
+            {/* {error ? (
             <div>
               <p className="error-text">An error occurred. Please try again.</p>
             </div>
           ) : null} */}
-          <div className="flex flex-row-reverse">
-            <button type="submit" className={`px-4 py-2 bg-blue-400 text-white rounded-md`}>Submit</button>
-          </div>
-        </form>
+            <div className="flex flex-row-reverse">
+              <button type="submit" className={`px-4 py-2 bg-blue-400 text-white rounded-md`}>Submit</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );
 };
 
-export default Contact;
+      export default Contact;
     // <div>
     //   <h1>Contact Page</h1>
     //   <p>

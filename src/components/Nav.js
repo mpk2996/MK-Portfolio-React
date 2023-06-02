@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const Nav = () => {
   return (
-    <nav className="flex items-center justify-between p-4 bg-blue-400 text-black">
+    <nav className="flex items-center justify-between p-4  text-black">
       <div>
         <Link to="/" className="font-bold text-white text-lg">Mike Kehoe</Link>
       </div>
