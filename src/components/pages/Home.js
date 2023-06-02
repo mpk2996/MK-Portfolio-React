@@ -5,16 +5,7 @@ export default function Home() {
     <div>
       <h1>Home Page</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+      Hello, and thank you for viewing my portfolio. My name is Mike Kehoe, and I am a recent graduate of the University of Miami full-stack web development bootcamp. I live in Indianapolis, Indiana and work with music programs across the country as a percussion arranger, clinician, and educator. I graduated in 2018 from Ball State University with a Bachelor's Degree in Music Education. In my free time, I enjoy exercising, playing music, and performing with the Indianapolis Colts Drumline!
       </p>
     </div>
   );
