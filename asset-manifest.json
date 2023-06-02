@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mpk2996.github.io/static/css/main.9d153eb0.css",
+    "main.js": "/mpk2996.github.io/static/js/main.cc432145.js",
+    "static/js/787.1ed0c42c.chunk.js": "/mpk2996.github.io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/about-background.jpg": "/mpk2996.github.io/static/media/about-background.1d2584a2d524f98ba733.jpg",
+    "index.html": "/mpk2996.github.io/index.html",
+    "main.9d153eb0.css.map": "/mpk2996.github.io/static/css/main.9d153eb0.css.map",
+    "main.cc432145.js.map": "/mpk2996.github.io/static/js/main.cc432145.js.map",
+    "787.1ed0c42c.chunk.js.map": "/mpk2996.github.io/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d153eb0.css",
+    "static/js/main.cc432145.js"
+  ]
+}
